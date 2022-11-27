@@ -1,0 +1,72 @@
+.product{
+    margin:10px  20px;
+    color:  rgba(0,0,0,0.5);
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 10px;
+}
+.card-bootstrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-bottom: 100px;
+    margin-top:100px; 
+}
+.card1{
+    margin-left: 10px;
+}
+.card2{
+    margin-left: 6px; 
+}
+.form-bootstrap{
+    margin: 50px 30px;
+}
+.form-bootstrap h1{
+    color:  rgba(0,0,0,0.5);
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+}
+.copy{
+    height:100%;
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: x-small;
+    font-weight: bolder;
+
+    color:white;
+
+    background:rgba(0,0,0,0.7);
+}
+.copy p{
+    margin:0 30px;
+}
+
+
+
+@media(max-width:500px){
+    .product{
+        width: 90%;
+    }
+}
+
+@media(max-width:800px){
+    .card-bootstrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .card1,.card2{
+        margin-bottom: 10px;
+    }
+    .card1,.card2,.card3{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .form-bootstrap{
+        margin-bottom: 30px; 
+    }
+    /*  margin-bottom: 30px;*/
+}
